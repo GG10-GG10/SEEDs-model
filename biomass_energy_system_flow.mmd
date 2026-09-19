@@ -1,0 +1,39 @@
+flowchart TD
+    A["Historical data<br/>FAOSTAT bioenergy + FBS + forestry"] --> B["Country-year carrier targets<br/>solid, liquid, gaseous"]
+    S["Future scenarios<br/>OECD-FAO to 2034 + AR6/SCI to 2080"] --> B
+    B --> C["Carrier-to-feedstock allocation"]
+
+    C --> C1["Food/feed crops"]
+    C --> C2["Dedicated energy crops"]
+    C --> C3["Crop residues and processing by-products"]
+    C --> C4["Manure and biogas"]
+    C --> C5["Forest biomass and black liquor"]
+    C --> C6["Food waste and other biogenic waste"]
+
+    C1 --> M["Commodity market balance"]
+    M --> P["Production, prices, trade, imports"]
+    P --> L["Cropland, pasture and land-use change"]
+    C2 --> L
+
+    C3 --> R["Residue balance<br/>soil retention, feed, bedding, burning, industry, energy"]
+    R --> F["Feed substitution and nutrient replacement"]
+    C4 --> G["Manure management, methane capture and digestate"]
+    C5 --> H["Wood harvest, forest carbon and HWP pools"]
+
+    L --> E["Gross AFOLU emissions"]
+    F --> E
+    G --> E
+    H --> E
+
+    C --> X["Conversion, transport and combustion"]
+    X --> X1["Energy-sector CH4/N2O and supply-chain emissions"]
+    X --> X2["Avoided fossil emissions"]
+    X --> X3["BECCS captured and stored CO2"]
+
+    P --> Q["Food-system outcomes<br/>food quantity, price, affordability, import dependence"]
+    E --> O["Climate-accounting report"]
+    X1 --> O
+    X2 --> O
+    X3 --> O
+
+    O --> Z["Report separately:<br/>gross AFOLU, lifecycle emissions,<br/>avoided fossil, geological removals"]

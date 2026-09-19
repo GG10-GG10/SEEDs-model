@@ -1,0 +1,55 @@
+priority,module,parameter,unit,preferred_source,download_url,target_table,status
+P0,historical,carrier_production,TJ,FAOSTAT Bioenergy,https://www.fao.org/faostat/en/,bioenergy_history_country_carrier,local_2023_needs_2024_update
+P0,historical,carrier_final_consumption,TJ,FAOSTAT Bioenergy,https://www.fao.org/faostat/en/,bioenergy_history_country_carrier,local_2023_needs_2024_update
+P0,baseline,food_feed_seed_processing_losses_other,tonnes,FAOSTAT Food Balances,https://www.fao.org/faostat/en/,fbs_components,loader_extended
+P0,feedstock_bridge,ethanol_feedstock_share,fraction,OECD-FAO Outlook,https://data-explorer.oecd.org/,bioenergy_carrier_feedstock_share,missing
+P0,feedstock_bridge,biodiesel_feedstock_share,fraction,OECD-FAO and USDA PSD,https://apps.fas.usda.gov/psdonline/app/index.html#/app/downloads,bioenergy_carrier_feedstock_share,missing
+P0,conversion,lhv_gj_per_tdm,GJ_per_tDM,UNSD and IPCC,https://unstats.un.org/unsd/energystats/,bioenergy_feedstock_parameters,missing
+P0,conversion,dry_matter_fraction,fraction,IEA Bioenergy and process literature,https://www.ieabioenergy.com/,bioenergy_feedstock_parameters,missing
+P0,conversion,conversion_efficiency,fraction,GREET and BioGrace,https://greet.anl.gov/,bioenergy_feedstock_parameters,missing
+P0,scenario,primary_biomass,EJ_per_year,IIASA AR6,https://data.ece.iiasa.ac.at/ar6/,bioenergy_scenario_targets,local_world_SCI_available
+P0,scenario,crop_bioenergy_demand,MtDM_per_year,IIASA AR6,https://data.ece.iiasa.ac.at/ar6/,bioenergy_scenario_targets,local_world_SCI_available
+P0,scenario,residue_bioenergy_demand,MtDM_per_year,IIASA AR6,https://data.ece.iiasa.ac.at/ar6/,bioenergy_scenario_targets,local_world_SCI_sparse
+P1,residue,residue_to_product_ratio,tDM_per_t_product,OMD,https://zenodo.org/records/10450921,residue_competing_uses,missing
+P1,residue,collection_efficiency,fraction,IRENA residue report,https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2023/Nov/IRENA_Agricultural_residue_bioenergy_2023.pdf,residue_competing_uses,missing
+P1,residue,soil_retention_floor,fraction,IPCC and residue meta-analysis,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch05_Cropland.pdf,residue_competing_uses,missing
+P1,residue,feed_bedding_share,fraction,OMD,https://zenodo.org/records/10450921,residue_competing_uses,missing
+P1,residue,current_burning_share,fraction,FAOSTAT Emissions,https://www.fao.org/faostat/en/,residue_competing_uses,missing
+P1,residue,nutrient_N_P_K,kg_per_tDM,OMD,https://zenodo.org/records/10450921,residue_competing_uses,missing
+P1,residue,soil_carbon_response,tC_per_ha,IPCC and meta-analysis,https://doi.org/10.1111/gcbb.12631,residue_competing_uses,missing
+P1,energy_crop,yield,tDM_per_ha,Li et al Scientific Data,https://doi.org/10.1038/sdata.2018.169,dedicated_energy_crop_parameters,missing
+P1,energy_crop,eligible_land,ha,FAO GAEZ,https://gaez.fao.org/,dedicated_energy_crop_parameters,missing
+P1,energy_crop,fertilizer_N,kgN_per_ha,field dataset and literature,https://doi.org/10.1038/sdata.2018.169,dedicated_energy_crop_parameters,missing
+P1,energy_crop,irrigation_water,m3_per_ha,FAO AQUASTAT,https://www.fao.org/aquastat/en/databases/,dedicated_energy_crop_parameters,missing
+P1,energy_crop,land_cover_exclusion,class,ESA WorldCover,https://worldcover2021.esa.int/download,dedicated_energy_crop_parameters,missing
+P1,energy_crop,protected_area_exclusion,boolean,Protected Planet WDPA,https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA,dedicated_energy_crop_parameters,missing
+P1,forest,fuelwood_and_roundwood,m3,FAOSTAT Forestry,https://www.fao.org/faostat/en/,forest_biomass_supply,roundwood_local
+P1,forest,net_annual_increment,m3_per_year,FAO FRA,https://fra-data.fao.org/,forest_biomass_supply,missing
+P1,forest,wood_density,tDM_per_m3,Global Wood Density Database,https://datadryad.org/stash/dataset/doi:10.5061/dryad.234,forest_biomass_supply,one_global_default_exists
+P1,forest,HWP_fraction,fraction,IPCC,https://www.ipcc-nggip.iges.or.jp/public/2019rf/index.html,forest_biomass_supply,industrial_roundwood_only
+P1,manure,volatile_solids,kg_per_head_day,IPCC Chapter 10,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch10_Livestock.pdf,manure_biogas_parameters,missing
+P1,manure,Bo,m3_CH4_per_kg_VS,IPCC Chapter 10,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch10_Livestock.pdf,manure_biogas_parameters,missing
+P1,manure,collectable_fraction,fraction,FAO GLEAM and literature,https://www.fao.org/gleam/en/,manure_biogas_parameters,missing
+P1,manure,digester_capture_and_leakage,fraction,IEA Bioenergy Task 37,https://task37.ieabioenergy.com/,manure_biogas_parameters,missing
+P1,waste,food_waste_generation,kg_per_capita_year,UNEP Food Waste Index,https://www.unep.org/resources/publication/food-waste-index-report-2024,waste_bioenergy_parameters,missing
+P1,waste,municipal_waste_composition,fraction,World Bank What a Waste,https://datacatalog.worldbank.org/search/dataset/0039597,waste_bioenergy_parameters,missing
+P1,resource_constraint,resource_available_tdm,tDM,OMD/FAOSTAT Forestry/FRA/GLEAM/UNEP/World Bank,see_module_specific_sources,bioenergy_resource_constraints,template_added
+P1,resource_constraint,competing_use_tdm,tDM,OMD/IRENA/FAOSTAT/FRA/UNEP,see_module_specific_sources,bioenergy_resource_constraints,template_added
+P1,resource_constraint,sustainable_fraction,fraction,IPCC/IRENA/IEA Bioenergy/literature,see_module_specific_sources,bioenergy_resource_constraints,template_added
+P1,resource_constraint,eligible_land_area_ha,ha,GAEZ/ESA WorldCover/WDPA/AQUASTAT,see_module_specific_sources,bioenergy_resource_constraints,template_added
+P1,resource_constraint,yield_tdm_per_ha,tDM_per_ha,Li et al Scientific Data/GAEZ,https://doi.org/10.1038/sdata.2018.169,bioenergy_resource_constraints,template_added
+P1,emissions_handoff,ghg_direct_kgco2e_per_tdm,kgCO2e_per_tDM,GREET/BioGrace/IPCC EFDB,https://greet.anl.gov/,bioenergy_emissions_handoff,code_added_optional_factor
+P1,emissions_handoff,ghg_soil_kgco2e_per_tdm,kgCO2e_per_tDM,IPCC and residue soil-carbon literature,https://www.ipcc-nggip.iges.or.jp/public/2019rf/index.html,bioenergy_emissions_handoff,code_added_optional_factor
+P1,emissions_handoff,ghg_avoided_kgco2e_per_tdm,kgCO2e_per_tDM,IPCC/IEA Bioenergy/AD literature,https://task37.ieabioenergy.com/,bioenergy_emissions_handoff,code_added_optional_factor
+P1,emissions_handoff,fossil_displacement_kgco2e_per_tj,kgCO2e_per_TJ,GREET/IEA/IPCC,https://greet.anl.gov/,bioenergy_emissions_handoff,code_added_optional_factor
+P1,emissions_handoff,beccs_capture_kgco2_per_tdm,kgCO2_per_tDM,AR6/IEA CCUS/IPCC CCS,https://www.iea.org/data-and-statistics/data-tools/ccus-projects-explorer,bioenergy_emissions_handoff,code_added_optional_factor
+P2,coproduct,DDGS_yield,t_per_t_maize,USDA ERS and GREET,https://www.ers.usda.gov/topics/farm-economy/bioenergy/,bioenergy_coproducts,missing
+P2,coproduct,oilseed_meal_yield,t_per_t_seed,USDA PSD,https://apps.fas.usda.gov/psdonline/app/index.html#/app/downloads,bioenergy_coproducts,missing
+P2,coproduct,digestate_nutrient_credit,kgNPK,IPCC and AD literature,https://task37.ieabioenergy.com/,bioenergy_coproducts,missing
+P2,lifecycle,upstream_and_conversion_EF,kgCO2e_per_GJ,GREET,https://greet.anl.gov/,bioenergy_lifecycle_ef,missing
+P2,lifecycle,combustion_CH4_N2O,kg_per_TJ,IPCC EFDB,https://www.ipcc-nggip.iges.or.jp/EFDB/main.php,bioenergy_lifecycle_ef,missing
+P2,trade,feedstock_carrier_trade,tonnes_or_TJ,UN Comtrade,https://comtradeplus.un.org/,bioenergy_trade,missing
+P2,cost,feedstock_supply_cost,USD_per_tDM,IRENA and DOE Bioenergy KDF,https://bioenergykdf.net/,bioenergy_cost_supply,missing
+P2,BECCS,capture_rate,fraction,AR6 and IEA CCUS,https://www.iea.org/data-and-statistics/data-tools/ccus-projects-explorer,beccs_parameters,missing
+P2,BECCS,energy_penalty,fraction,IPCC CCS and process literature,https://www.ipcc.ch/report/carbon-dioxide-capture-and-storage/,beccs_parameters,missing
+P2,BECCS,storage_retention,fraction,IPCC CCS,https://www.ipcc.ch/report/carbon-dioxide-capture-and-storage/,beccs_parameters,missing
