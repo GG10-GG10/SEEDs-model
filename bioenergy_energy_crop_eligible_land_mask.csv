@@ -1,0 +1,3 @@
+M49_Country_Code,country_name,feedstock,eligible_land_area_ha,source,notes
+'840,United States,miscanthus_energy_crop,0,ESA WorldCover; WDPA; GAEZ,Example only: replace with eligible area after excluding protected/high-carbon/unsuitable land.
+'840,United States,switchgrass_energy_crop,0,ESA WorldCover; WDPA; GAEZ,Example only: feedstock can be blank to apply the same eligible area to all energy crops.
