@@ -1,0 +1,10 @@
+species,production_role,n_excretion_kg_per_head_year,p_excretion_kg_per_head_year,volatile_solids_kg_per_head_year,housing_energy_kwh_per_head_year,cycle_days_base,turnover_rate_base,producing_share,electricity_kwh_per_head_year,fuel_gj_per_head_year,source_id,parameter_status
+dairy_cattle,dairy,0,0,0,0,0,0,0,0,0,REPLACE_WITH_IPCC_GLEAM_NASEM_SOURCE,placeholder_do_not_use
+beef_cattle,meat,0,0,0,0,0,0,0,0,0,REPLACE_WITH_IPCC_GLEAM_NASEM_SOURCE,placeholder_do_not_use
+goat,dairy,0,0,0,0,0,0,0,0,0,REPLACE_WITH_IPCC_GLEAM_NRC_SOURCE,placeholder_do_not_use
+goat,meat,0,0,0,0,0,0,0,0,0,REPLACE_WITH_IPCC_GLEAM_NRC_SOURCE,placeholder_do_not_use
+sheep,dairy,0,0,0,0,0,0,0,0,0,REPLACE_WITH_IPCC_GLEAM_NRC_SOURCE,placeholder_do_not_use
+sheep,meat,0,0,0,0,0,0,0,0,0,REPLACE_WITH_IPCC_GLEAM_NRC_SOURCE,placeholder_do_not_use
+pig,meat,0,0,0,0,0,0,0,0,0,REPLACE_WITH_IPCC_GLEAM_NRC_SOURCE,placeholder_do_not_use
+poultry,meat,0,0,0,0,0,0,0,0,0,REPLACE_WITH_IPCC_GLEAM_NASEM_SOURCE,placeholder_do_not_use
+poultry,eggs,0,0,0,0,0,0,0,0,0,REPLACE_WITH_IPCC_GLEAM_NASEM_SOURCE,placeholder_do_not_use

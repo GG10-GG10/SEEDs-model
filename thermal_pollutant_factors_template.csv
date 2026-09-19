@@ -1,0 +1,10 @@
+species,production_role,pollutant,pathway,activity_basis,factor_kg_per_activity_unit,heat_ef_coefficient,cold_ef_coefficient,heat_load_scale,cold_load_scale,source_id,parameter_status
+dairy_cattle,dairy,NH3,housing_and_manure,n_excreted_kg,0,0,0,1,1,REPLACE_WITH_EMEP_EEA_SOURCE,placeholder_do_not_use
+dairy_cattle,dairy,NOX,housing_and_manure,n_excreted_kg,0,0,0,1,1,REPLACE_WITH_EMEP_EEA_IPCC_SOURCE,placeholder_do_not_use
+dairy_cattle,dairy,PM2.5,housing,effective_head_year,0,0,0,1,1,REPLACE_WITH_EMEP_EEA_OR_NATIONAL_SOURCE,placeholder_do_not_use
+dairy_cattle,dairy,PM10,housing,effective_head_year,0,0,0,1,1,REPLACE_WITH_EMEP_EEA_OR_NATIONAL_SOURCE,placeholder_do_not_use
+dairy_cattle,dairy,NMVOC,housing_and_manure,effective_head_year,0,0,0,1,1,REPLACE_WITH_EMEP_EEA_OR_EPA_SOURCE,placeholder_do_not_use
+dairy_cattle,dairy,H2S,housing_and_manure,effective_head_year,0,0,0,1,1,REPLACE_WITH_MEASUREMENT_SOURCE,placeholder_do_not_use
+dairy_cattle,dairy,N_LEACHING_RUNOFF,manure_management,n_excreted_kg,0,0,0,1,1,REPLACE_WITH_IPCC_SOURCE,placeholder_do_not_use
+dairy_cattle,dairy,P_LOSS,manure_and_soil,p_excreted_kg,0,0,0,1,1,REPLACE_WITH_NUTRIENT_BALANCE_SOURCE,placeholder_do_not_use
+dairy_cattle,dairy,CO2,housing_energy,housing_energy_kwh,0,0,0,1,1,REPLACE_WITH_COUNTRY_GRID_EF_SOURCE,placeholder_do_not_use

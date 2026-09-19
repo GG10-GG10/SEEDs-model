@@ -1,0 +1,2 @@
+study_id,doi_or_standard,species,breed,life_stage,production_role,production_system,study_design,risk_of_bias,transferability,impact,heat_load,cold_load,exposure_duration_hours,recovery_hours,pair_fed,response_value,response_sd,sample_size,extraction_notes
+REPLACE,REPLACE,dairy_cattle,REPLACE,lactating,dairy,all,randomized,low,high,production_yield_multiplier,0,0,0,0,false,1,0,1,REPLACE

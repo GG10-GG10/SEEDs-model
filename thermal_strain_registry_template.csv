@@ -1,0 +1,2 @@
+species,production_system,strain_name,heat_driver,cold_driver,intercept,heat_coefficient,cold_coefficient,heat_load_scale,cold_load_scale,lower_bound,upper_bound,source_id,parameter_status
+dairy_cattle,all,heat_strain,heat_load_72h_max,cold_load,0,0,0,1,1,0,10,REPLACE_WITH_SOURCE,placeholder_do_not_use
