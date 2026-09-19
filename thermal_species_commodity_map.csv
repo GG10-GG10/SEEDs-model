@@ -1,0 +1,12 @@
+commodity,production_commodity,species,production_role
+"Cattle, dairy",Raw milk of cattle,dairy_cattle,dairy
+"Cattle, non-dairy","Meat of cattle with the bone, fresh or chilled",beef_cattle,meat
+"Goats, dairy",Raw milk of goats,goat,dairy
+"Goats, non-dairy","Meat of goat, fresh or chilled",goat,meat
+"Sheep, dairy",Raw milk of sheep,sheep,dairy
+"Sheep, non-dairy","Meat of sheep, fresh or chilled",sheep,meat
+Swine,"Meat of pig with the bone, fresh or chilled",pig,meat
+"Chickens, broilers","Meat of chickens, fresh or chilled",poultry,meat
+"Chickens, layers",Eggs Primary,poultry,eggs
+Ducks,"Meat of ducks, fresh or chilled",poultry,meat
+Turkeys,"Meat of turkeys, fresh or chilled",poultry,meat

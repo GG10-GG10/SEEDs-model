@@ -1,0 +1,9 @@
+species,production_role,production_system,impact,response_form,intercept,heat_coefficient,cold_coefficient,heat_load_scale,cold_load_scale,lower_bound,upper_bound,unit,source_id,parameter_status
+dairy_cattle,dairy,all,production_yield_multiplier,linear_multiplier,1,0,0,1,1,0.01,2,multiplier,REPLACE_WITH_SOURCE,placeholder_do_not_use
+dairy_cattle,dairy,all,dm_intake_multiplier,linear_multiplier,1,0,0,1,1,0.01,3,multiplier,REPLACE_WITH_SOURCE,placeholder_do_not_use
+beef_cattle,meat,all,cycle_length_multiplier,linear_multiplier,1,0,0,1,1,0.01,5,multiplier,REPLACE_WITH_SOURCE,placeholder_do_not_use
+goat,meat,all,cycle_length_multiplier,linear_multiplier,1,0,0,1,1,0.01,5,multiplier,REPLACE_WITH_SOURCE,placeholder_do_not_use
+sheep,meat,all,cycle_length_multiplier,linear_multiplier,1,0,0,1,1,0.01,5,multiplier,REPLACE_WITH_SOURCE,placeholder_do_not_use
+pig,meat,all,cycle_length_multiplier,linear_multiplier,1,0,0,1,1,0.01,5,multiplier,REPLACE_WITH_SOURCE,placeholder_do_not_use
+poultry,meat,all,cycle_length_multiplier,linear_multiplier,1,0,0,1,1,0.01,5,multiplier,REPLACE_WITH_SOURCE,placeholder_do_not_use
+poultry,eggs,all,production_yield_multiplier,linear_multiplier,1,0,0,1,1,0.01,2,multiplier,REPLACE_WITH_SOURCE,placeholder_do_not_use

@@ -1,0 +1,4 @@
+m49,year,species,production_system,scenario,climate_model,grid_id,grid_resolution_km,animal_weight,livestock_weight_year,livestock_weight_source,source_dataset_version,animal_weight_relative_uncertainty,weight_imputation_flag,heat_load,cold_load,heat_event_days,cold_event_days,mean_thi,mean_cei
+156,1960,dairy_cattle,mixed,historical,ERA5-Land,cell_000001,5,120.0,1961,AGLW_5KM,AGLW_1961_2021_v1,0.18,backcast_1961_to_1960,0.0,8.8,0,22,41.8,8.8
+156,2020,dairy_cattle,mixed,historical,ERA5-Land,cell_000001,5,120.0,2020,AGLW_5KM,AGLW_1961_2021_v1,0.18,none,0.0,8.5,0,21,42.0,8.5
+156,2030,dairy_cattle,mixed,ssp245,GCM_A,cell_000001,5,118.0,2030,AGLW_5KM_projected,PROJECTED_AGLW_v1,0.25,projected_from_aglw,2.4,6.1,8,15,69.2,6.1
